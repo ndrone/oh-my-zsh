@@ -19,4 +19,4 @@ alias java11='export JAVA_HOME=$JAVA_11_HOME'
 # default to Java 11
 java11
 
-plugins=(extract)
+plugins=(brew extract)

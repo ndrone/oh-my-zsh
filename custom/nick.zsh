@@ -6,6 +6,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 function volume() { sudo osascript -e "set Volume $1";}
+function network() { networksetup -setairportpower $1 $2 ;}
 
 # java version alias
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)

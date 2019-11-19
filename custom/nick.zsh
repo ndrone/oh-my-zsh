@@ -25,3 +25,4 @@ java11
 # remove these once the above is enabled.
 source ${ZSH}/plugins/autojump/autojump.plugin.zsh
 source ${ZSH}/plugins/brew/brew.plugin.zsh
+source ${ZSH}/plugins/extract/extract.plugin.zsh

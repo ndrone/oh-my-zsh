@@ -4,12 +4,13 @@ alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
 # enable once https://github.com/robbyrussell/oh-my-zsh/pull/8062 is merged
-#plugins=(autojump brew extract gitignore java mac mvn zsh-autosuggestions zsh-syntax-highlighting)
+#plugins=(autojump brew extract git gitignore java mac mvn zsh-autosuggestions zsh-syntax-highlighting)
 
 # remove these once the above is enabled.
 source ${ZSH}/plugins/autojump/autojump.plugin.zsh
 source ${ZSH}/plugins/brew/brew.plugin.zsh
 source ${ZSH}/plugins/extract/extract.plugin.zsh
+source ${ZSH}/plugins/git/git.plugin.zsh
 source ${ZSH}/plugins/gitignore/gitignore.plugin.zsh
 source ${ZSH}/plugins/mvn/mvn.plugin.zsh
 source ${ZSH}/custom/plugins/java/java.plugin.zsh

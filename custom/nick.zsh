@@ -1,4 +1,4 @@
-ZSH_THEME="af-magic"
+ZSH_THEME="af-magic2"
 
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"

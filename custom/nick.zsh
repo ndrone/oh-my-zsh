@@ -3,6 +3,7 @@ ZSH_THEME="af-magic2"
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias af="alias-finder"
+alias tf="terraform"
 
 ZSH_ALIAS_FINDER_AUTOMATIC=true
 

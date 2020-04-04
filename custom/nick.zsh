@@ -4,6 +4,9 @@ alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias af="alias-finder -e $1 && alias-finder -l $1"
 alias tf="terraform"
+alias tfa="terraform apply"
+alias tfd="terraform destroy"
+alias tfp="terraform plan"
 
 ZSH_ALIAS_FINDER_AUTOMATIC=true
 

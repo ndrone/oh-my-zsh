@@ -11,6 +11,8 @@ alias tfa="terraform apply"
 alias tfd="terraform destroy"
 alias tfp="terraform plan"
 
+alias screensaver="/System/Library/CoreServices/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
+
 ZSH_ALIAS_FINDER_AUTOMATIC=true
 
 # enable once https://github.com/robbyrussell/oh-my-zsh/pull/8062 is merged

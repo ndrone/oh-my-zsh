@@ -26,6 +26,7 @@ source ${ZSH}/plugins/git/git.plugin.zsh
 source ${ZSH}/plugins/gitignore/gitignore.plugin.zsh
 source ${ZSH}/plugins/mvn/mvn.plugin.zsh
 source ${ZSH}/plugins/zsh_reload/zsh_reload.plugin.zsh
+source ${ZSH}/plugins/ansible/ansible.plugin.zsh
 source ${ZSH}/custom/plugins/alias-finder/alias-finder.plugin.zsh
 source ${ZSH}/custom/plugins/java/java.plugin.zsh
 source ${ZSH}/custom/plugins/mac/mac.plugin.zsh

@@ -6,3 +6,5 @@ function network() {
   # $2 on or off
   networksetup -setairportpower $1 $2 ;
 }
+
+alias sleep="pmset sleepnow"

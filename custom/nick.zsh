@@ -18,7 +18,7 @@ source ${ZSH}/plugins/autojump/autojump.plugin.zsh
 source ${ZSH}/plugins/brew/brew.plugin.zsh
 source ${ZSH}/plugins/extract/extract.plugin.zsh
 source ${ZSH}/plugins/gh/gh.plugin.zsh
-source ${ZSH}/plugins/git/git.plugin.zsh
+# source ${ZSH}/plugins/git/git.plugin.zsh
 source ${ZSH}/plugins/gitignore/gitignore.plugin.zsh
 source ${ZSH}/plugins/mvn/mvn.plugin.zsh
 source ${ZSH}/plugins/terraform/terraform.plugin.zsh

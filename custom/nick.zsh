@@ -1,6 +1,7 @@
 ZSH_THEME="af-magic2"
 
 export GPG_TTY=$(tty)
+export ZSH_ALIAS_FINDER_AUTOMATIC=true
 
 # enable once https://github.com/robbyrussell/oh-my-zsh/pull/8062 is merged
 #plugins=(alias-finder autojump brew extract git gitignore java mac mvn zsh-autosuggestions zsh-syntax-highlighting)
@@ -27,4 +28,3 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 
 alias af="alias-finder -e $1 && alias-finder -l $1"
 
-ZSH_ALIAS_FINDER_AUTOMATIC=true
